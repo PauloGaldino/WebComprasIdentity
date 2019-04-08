@@ -1,8 +1,12 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using System;
+using System.Collections.Generic;
 using System.Diagnostics;
-using WebComprasIdentity.Models;
+using System.Linq;
+using System.Threading.Tasks;
+using Microsoft.AspNetCore.Mvc;
+using WebCoreDDD.Models;
 
-namespace WebComprasIdentity.Controllers
+namespace WebCoreDDD.Controllers
 {
     public class HomeController : Controller
     {
